@@ -43,7 +43,7 @@ class DataImporter
 
 class DataManager
 {
-	@lazy var importer = DataImporter()
+	lazy var importer = DataImporter()
 	var data = [String]()
 }
 
